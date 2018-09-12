@@ -1,0 +1,50 @@
+#e2.1DrawPythn.py
+import turtle
+turtle.setup(1150,650,200,200)
+turtle.penup()
+turtle.fd(-450)
+turtle.pendown()
+turtle.pensize(20)
+turtle.pencolor("red")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,80/2)
+turtle.pencolor("orange")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,80/2)
+turtle.pencolor("yellow")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,80/2)
+turtle.pencolor("green")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,80/2)
+turtle.pencolor("cyan")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,80/2)
+turtle.pencolor("blue")
+turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+    turtle.pencolor("violet")
+    turtle.seth(-25)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40,150/2)
+turtle.fd(20)
+turtle.fd(50*2/3)
